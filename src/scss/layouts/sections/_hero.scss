@@ -1,0 +1,18 @@
+//! Specific to the template //
+.hero {
+    padding-block: 5rem;
+    display: grid;
+    margin-top: $nav-height;
+}
+
+
+
+
+//!Responsive settings, only change the BG image
+@media(min-width:$md) {
+    .hero {
+
+        padding-top: $nav-height;
+    }
+
+}

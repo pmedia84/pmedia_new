@@ -1,0 +1,18 @@
+.card{
+    padding: $spacer-4;
+    border-radius: $border-radius;
+    background-color: $primary-900;
+}
+.card-header{
+    padding-block: $spacer-2;
+    .icon{
+        color: $accent;
+        font-size: 4rem;
+        stroke-width: 1px;
+    }
+
+} 
+.banner{
+    background-color: $primary-950;
+}
+

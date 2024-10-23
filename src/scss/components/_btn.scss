@@ -1,0 +1,81 @@
+.btn-primary {
+    //primary button
+    outline: none;
+    appearance: none;
+    background-color: $primary;
+    color: #fff;
+    border: 1.5px solid $primary;
+    border-radius: 5px;
+    padding: .375rem .75rem;
+    transition: box-shadow 300ms ease-out;
+    width: fit-content;
+    font-size: 1.25em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: border 300ms ease-out, background-color 300ms ease-out, color 300ms ease-out, box-shadow 300ms ease-out;
+    cursor: pointer;
+    &:hover{
+        border-color: $accent;
+        transition: border 300ms ease-out, background-color 300ms ease-out, color 300ms ease-out, box-shadow 300ms ease-out;
+        color: $primary;
+        background-color: #fff;
+    }
+    &:focus {
+        box-shadow: 0 0 2px 3px $primary-800;
+        transition: border 300ms ease-out, background-color 300ms ease-out, color 300ms ease-out, box-shadow 300ms ease-out;
+        color: $primary;
+        background-color: #fff;
+    }
+
+    .icon,
+    .loading-btn-text {
+        margin-right: 0.375rem;
+
+    }
+
+}
+
+
+
+
+.btn-secondary {
+    background-color: white;
+    color: $primary;
+    &:hover, &:focus{
+        background-color: $accent;
+        color: #fff;
+    }
+    }
+
+a.btn-primary {
+    text-decoration: none;
+}
+
+.btn-lg{
+    font-size: 1.5rem;
+}
+
+.btn-close {
+    //close button
+    border: 0;
+    border-radius: .375rem;
+    padding: .25em .25em;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+
+    svg {
+        height: 2rem;
+    }
+
+    cursor: pointer;
+    opacity: .5;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+
+

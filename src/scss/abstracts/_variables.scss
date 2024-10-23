@@ -1,0 +1,49 @@
+//Colours
+$primary:       hsl(209, 100%, 23%);
+$secondary:     hsl(207, 61%, 61%);
+$tertiary-col:  #897e7e;
+$accent: hsl(29, 92%, 48%);
+$white: rgba(204, 204, 204, 0.133);
+$grey-600: gray;
+
+$primary-500:hsl(209, 100%, 50%);
+$primary-600:hsl(209, 100%, 60%);
+$primary-700:hsl(209, 100%, 70%);
+$primary-800:hsl(209, 100%, 80%);
+$primary-900:hsl(209, 100%, 90%);
+$primary-950:hsl(209, 100%, 95%);
+
+
+//form colours
+$primary-form:       #3b685c;
+$error-response: hsl(0, 95%, 67%);
+$alert-primary: hsla(0, 99%, 66%, 0.753);
+// Border Radius
+
+$border-radius: 10px;
+$border-radius-2: 5px;
+///Screen Breakpoints
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$x-lg: 1200px;
+$xx-lg: 1400px;
+
+//Padding and margin settings
+//standard padding for the site
+
+$padding-1:1.5rem;
+$padding-2:2rem;
+
+//Spacers
+$spacer-1:0.25rem;
+$spacer-2:0.5rem;
+$spacer-2:0.5rem;
+$spacer-3:1.5rem;
+$spacer-4:2rem;
+$spacer-5:2.5rem;
+$spacer-6:3rem;
+$spacer-7:4rem;
+
+//nav-bar height
+$nav-height: 72px;
